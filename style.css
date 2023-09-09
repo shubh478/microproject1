@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    list-style-type: none;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+   
+  }
+  .box1 {
+    display: flex;
+    height: 700px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFCD9E;
+    
+  }
+  .box2 {
+   
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    background-color: #282828;
+    color: #FFFFFF;
+    height: 500px;
+    
+  }
+  
+  .list header,p {
+    margin: 20px;
+  }
+  .image {
+    margin-right: 50px;
+  }
+  #email, #submit {
+    margin: 20px;
+    margin-top: 10px;
+  }
+  #email {
+    margin-right: auto;
+    border: 3px solid black; 
+    height: 40px;
+    width: 256px;
+    padding: 15px;
+    color:  #888888;
+    border-radius: 5px;
+
+    
+  }
+  #submit {
+
+    color: white;
+    
+    background-color: black;
+    height: 40px;
+    width: 170px;
+    border-radius: 5px;
+    margin-left: auto;
+  }
+  .list {
+    padding: 30px;
+    margin-right: 180px;
+    margin-left: 50px;
+  }
+#para1 {
+  color: #282828;
+
+}
+#para2 {
+  color: #484848;
+
+  
+}
+#para3 {
+  color:  #FFFFFF;
+  padding: 10px;
+  padding-top: 2px;
+  margin-top: 1px;
+}
+.list1,.list2 ul li {
+
+  font-family: 'Inter';
+  font-size: 15px;
+  
+  line-height: 25px;
+  
+  text-align: left;
+  
+  
+  
+}
+.list1 {
+
+
+margin-left: 130px;
+
+  
+}
+.list2 {
+  margin-right: 130px;
+}
+.list1 li a {
+  color: white;
+}
+.list2 li a {
+  color: white;
+}
